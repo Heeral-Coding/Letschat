@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+            Lets Chat!
+        </title>
+        <link rel="stylesheet" type="text/css" href="kwitter_room.css">
+        <script src="Kwitter_room.js"></script>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="Back1">
+            <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Log out</button>
+            <center>
+                <h1 class="header">	
+                    Lets Chat!
+                </h1>
+            </div>
+                <h3 class="color_white" id="user_name"></h3>
+                <div class="form-group input_div_room_page">
+                    <center>
+                    <label>#Add Room:</label>
+                    <br>
+                    <input type="text" id="room_name" class="form-control" placeholder="#Room Name">
+                </center>
+                </div>
+                <center>
+                <button class="btn btn-success" onclick="addRoom()">#Add Room</button>
+                <h3 class="color_white">#TRENDINGROOMS</h3>
+            <div id="output"></div>
+                </center>
+            </center>
+            </div>
+    </body>
+</html>
